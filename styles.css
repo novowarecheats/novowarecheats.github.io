@@ -1712,11 +1712,11 @@ html {
 	color: #fff;
 	font-family: paragraph, sans-serif;
 	font-size: 16px;
-	cursor: url(/res/img/ui/cursor.png), default
+	cursor: url(https://classic.systemspace.network/res/img/ui/cursor.png), default
 }
 
 a {
-	cursor: url(/res/img/ui/pointer.png), default;
+	cursor: url(https://classic.systemspace.network/res/img/ui/pointer.png), default;
 	color: inherit;
 	text-decoration: none
 }
