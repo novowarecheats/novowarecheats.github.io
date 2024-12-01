@@ -1,123 +1,50 @@
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+<!DOCTYPE HTML>
+<html>
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta name="ROBOTS" content="NOINDEX, FOLLOW" />
-	<title>Novoware Forums</title>
-	<link rel="stylesheet" type="text/css" href="styles.css" />
-	<link rel="stylesheet" type="text/css" href="/static/css/font-awesome.min.css" />
-	<link href="https://fonts.googleapis.com/css?family=Raleway:900,400" rel="stylesheet" type="text/css" />
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script src="script.js"></script>
-	<script src="/static/js/notifications.js?v=4" type="text/javascript" charset="UTF-8"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+p {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 0px;
+  font-family: Consolas;
+}
+</style>
 </head>
-
 <body>
 
-<div id="punindex" class="pun">
-<div class="top-box"></div>
-<div class="punwrap">
+<p>THIS CHEAT IS RATTED. DONT RUN IT. YOU HEARD IT FROM LEAKSOLUTIONS HERE.</p>
 
-<div id="brdheader" class="block">
-	<div class="box">
-		<div id="brdtitle" class="inbox">
-			<h1><a href="index.php" style="color:rgb(50,150,200);">Novoware</a></h1>
-			<div id="brddesc"></div>
-		</div>
-		<div id="brdmenu" class="inbox">
-			<ul>
-				<li id="navnotifications"><span class="fake-link" id="notifications" href="notifications.php"><i class="fa fa-lg fa-bell" id="notifications-badge" data-after-content="0"></i></span></li>
-				<a href="https://discord.gg/S9JFnHyG">Discord</a></li>
-        <a href="https://novowarecheats.github.io/changelog.html">Latest Changelog</a></li>
-			</ul>
-		</div>
-		<div id="notifications-container">
-			<div id="notifications-body">
-				<ul id="notifications-list"></ul>
-			</div>
-			<div id="notifications-footer">
-				<p><a id="notifications-clear" href="#">Clear</a></p>
-			</div>
-		</div>
-		<div id="brdwelcome" class="inbox">
-			<p class="ilk"><b>Novoware Forums</b></p>
-      <p class="ikinci"><b> Official Public Release of Novoware (Counter-Strike 2)</b> will be working until 10-01-2024, when finished you will be informed.</p>
-			<div class="clearer"></div>
-		</div>
-	</div>
-</div>
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Jan 5, 2030 15:37:25").getTime();
 
+// Update the count down every 1 second
+var x = setInterval(function() {
 
-
-<div id="brdmain">
-<div id="msg" class="block">
-	<h2><span>News</span></h2>
-	<div class="box">
-		<div class="inbox">
-			<p>[14/11/2024] New download page for Novoware.</p>
-			<p><a href="https://discord.com/invite/S9JFnHyG">More news on Discord</a></p>
-		</div>
-	</div>
-</div>
-</div>
-  
-  <div id="brdmain">
-<div id="msg" class="block">
-	<h2><span>Download page</span></h2>
-	<div class="box">
-		<div class="inbox">
-			<p>[17/11/2024] Last update</p>
-			<p><a href="https://novowarecheats.github.io/files/loader.zip">Download latest version</a></p>
-      <p><a href="https://novowarecheats.github.io/changelog.html">Changelog 17/11/2024</a></p>
-			<p></p>
-			<p><a href="https://novowarecheats.github.io/poseidon">Poseidon cheats external (make sure you use -insecure tag.)</a></p>
-		</div>
-	</div>
-</div>
-</div>
-  
-<div id="brdmain">
-
-	<h2><span>Hall of autism</span></h2>
-	<div id="msg" class="block">
-    <div class="box">
-		<div class="inbox">
-		
-    <p>RampageDev, the biggest retard when it comes to developing a safe loader.</p>
-      
-   <img src="https://raw.githubusercontent.com/novowarecheats/novowarecheats.github.io/refs/heads/main/files/rampagedevbelike.png" style="max-height: 30em;">
-      
-      <img src="https://raw.githubusercontent.com/novowarecheats/novowarecheats.github.io/refs/heads/main/files/retard1.png" style="max-height: 40em;">
-      <h5>Can not even code a normal authentication</h5>
-      
-      <img src="https://raw.githubusercontent.com/novowarecheats/novowarecheats.github.io/refs/heads/main/files/retard2.png" style="max-height: 45em;">
-     
-      <p></p>
-      <p>RampageDev has exit scammed. this is the "seized.png" found on the website which is now gone.</p>
-      <p></p>
-      
-      <img src="https://github.com/novowarecheats/novowarecheats.github.io/blob/main/files/seized.png?raw=true" style="max-height: 40em;">
-      
-      <h5>Goofy ahh injection. NO protection at all. all it takes is their bypass being detected and rampage is gone.</h5>
-      
-      <p>i may release the source code in the future.</p>
-		</div>
-	</div>
-</div>
-</div>
-
-<div id="brdfooter" class="block">
-	<div class="box">
-		<div class="inbox">
-			<p>Novoware 2024 - 2025</p>
-			<div class="clearer"></div>
-		</div>
-	</div>
-</div>
-
-</div>
-<div class="end-box"></div>
-</div>
+  // Get today's date and time
+  var now = new Date().getTime();
+    
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+    
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  // Output the result in an element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+    
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
 
 </body>
 </html>
